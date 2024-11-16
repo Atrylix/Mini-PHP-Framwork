@@ -60,11 +60,11 @@ The script will install the necessary project files and set up the framework. If
 
 7. After installation, navigate to http://localhost in your browser. The router should route to the root of the project, and the template engine will render the index page.
 
-### Usage Example
+## Usage Example
 
 Once installed, you can start using the router and template engine. Here's a simple example:
 
-#### index.php
+### index.php
 ```php
 <?php
 const PROJECT_ROOT_PATH = __DIR__ . '/..';
@@ -92,10 +92,9 @@ Router::init()->get('/', function() {
 // Run the site
 Router::init()->run();
 ```
-Template Engine Syntax
+## Template Engine Syntax
 
 In the HTML templates, you can use the following syntax for variables and includes:
-
     Variable rendering:
     ```html
     <<var variable_name>>
@@ -103,7 +102,6 @@ In the HTML templates, you can use the following syntax for variables and includ
     Example:
     ```html
     <h1>Welcome to <<var Site_Name>>!</h1>```
-
     Including other templates:
     ```html
     <<include include_name.html>>
@@ -113,7 +111,7 @@ In the HTML templates, you can use the following syntax for variables and includ
     <<include header.html>>
     ```
 
-### Passing Data to Templates
+## Passing Data to Templates
 
 When rendering a template, you can pass data to it in the form of an associative array:
 ```php
@@ -123,7 +121,7 @@ $data = [
 TemplateEngine::init()->render('index.html', $data);
 ```
 
-Note: You can also pass individual variables, but using an array is recommended to keep things organized.
+*Note: You can also pass individual variables, but using an array is recommended to keep things organized.*
 
 ### Folder Structure for Templates and Includes
 To ensure everything works, place all your templates and includes in the appropriate folders:
@@ -170,7 +168,7 @@ If you're using macOS or Windows, you can still set up the project manually. Fol
             Require all granted
         </Directory>
     </VirtualHost>
-```
+   ```
 
 5. **Start Apache**:
     Run the appropriate command to start Apache on your system.
@@ -180,7 +178,6 @@ If you're using macOS or Windows, you can still set up the project manually. Fol
 
 ### Contributing
 We welcome contributions! If you'd like to help improve this framework, feel free to open an issue or submit a pull request. Here’s how you can contribute:
-
     1. Fork the repository.
     2. Clone your fork to your local machine.
     3. Make your changes.
