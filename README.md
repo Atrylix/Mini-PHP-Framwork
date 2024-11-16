@@ -35,7 +35,7 @@ After running the installation script, you'll need to manually copy the license 
     ```bash
     python3 install.py
     ```
-The script will install the necessary project files and set up the framework. If you’re using a different operating system, you’ll need to set up the project manually (detailed steps later).
+*The script will install the necessary project files and set up the framework. If you’re using a different operating system, you’ll need to set up the project manually (detailed steps later).*
 
 4. Make sure Apache is installed and mod_rewrite is enabled. You can enable mod_rewrite by running:
     ```bash
@@ -179,11 +179,11 @@ If you're using macOS or Windows, you can still set up the project manually. Fol
 ### Contributing
 I welcome contributions! If you'd like to help improve this framework, feel free to open an issue or submit a pull request. Here’s how you can contribute:
 
-    1. Fork the repository.
-    2. Clone your fork to your local machine.
-    3. Make your changes.
-    4. Push your changes back to your fork.
-    5. Submit a pull request with a description of what you’ve changed.
+1. Fork the repository.
+2. Clone your fork to your local machine.
+3. Make your changes.
+4. Push your changes back to your fork.
+5. Submit a pull request with a description of what you’ve changed.
 
 We encourage all contributors to follow the standard coding conventions and to write clear commit messages.
 
