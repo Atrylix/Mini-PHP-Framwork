@@ -177,7 +177,8 @@ If you're using macOS or Windows, you can still set up the project manually. Fol
     After starting Apache, navigate to http://localhost to see your project in action.
 
 ### Contributing
-We welcome contributions! If you'd like to help improve this framework, feel free to open an issue or submit a pull request. Here’s how you can contribute:
+I welcome contributions! If you'd like to help improve this framework, feel free to open an issue or submit a pull request. Here’s how you can contribute:
+
     1. Fork the repository.
     2. Clone your fork to your local machine.
     3. Make your changes.
